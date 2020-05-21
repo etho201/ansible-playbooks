@@ -1,5 +1,5 @@
 ---
-- hosts: servers
+- hosts: all
   become: true
   become_user: root
   tasks:
